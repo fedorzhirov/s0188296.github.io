@@ -10,17 +10,17 @@
   <h1>Список гиперссылок</h1>
 
   <ol>
-    <li>Абсолютная ссылка на главную страницу сайта kubsu.ru: <a href="http://kubsu.ru">http://kubsu.ru</a></li>
-    <li>Абсолютная ссылка на главную страницу сайта kubsu.ru в протоколе https: <a href="https://kubsu.ru">https://kubsu.ru</a></li>
-    <li>Ссылка-изображение: <a href="https://www.dastereo.ru/uploads/default/original/4X/2/4/7/247bf011c826ed6d437120f02f879dbe64e68e14.jpeg"><img src="https://www.dastereo.ru/uploads/default/original/4X/2/4/7/247bf011c826ed6d437120f02f879dbe64e68e14.jpeg" width="300" alt="Пример изображения"></a></li>
+    <li>Абсолютная гиперссылка на главную страницу сайта: <a href="http://kubsu.ru">http://kubsu.ru</a></li>
+    <li>Абсолютная на главную страницу сайта в протоколе https: <a href="https://kubsu.ru">https://kubsu.ru</a></li>
+    <li>Ссылка-изображение: <a href="https://www.exevalleypetfoods.co.uk/wp-content/uploads/2019/01/treats-1000x1000.jpg"><img src="https://www.exevalleypetfoods.co.uk/wp-content/uploads/2019/01/treats-1000x1000.jpg" width="300" alt="Пример изображения"></a></li>
     <li>Сокращенная ссылка на внутреннюю страницу: <a href="./index2.html">Внутренняя страница</a></li>
   </ol>
 
   <h2 id="внутренняя_страница">Внутренняя главная страница</h2>
-  <p>Это внутренняя страница.</p>
+  <p>Внутренняя страница</p>
 
   <ol start = "5">
-    <li>Сокращенная ссылка на главную страницу: <a href="./index.html">Главная страница</a></li>
+    <li>Сокращенная ссылка на главную страницу: <a href="./index2.html">Главная страница</a></li>
     <li>Ссылка на фрагмент текущей страницы: <a href="#внутренняя_страница">Внутренняя страница</a></li>
     <li>Ссылка с тремя параметрами в URL: <a href="?param1=value1&param2=value2&param3=value3">Ссылка с параметрами</a></li>
     <li>Ссылка с параметром id в URL: <a href="?id=123">Ссылка с id</a></li>
@@ -30,35 +30,37 @@
     <li>Относительная ссылка на страницу в каталоге двумя уровнями выше: <a href="about/index.html">Каталог двумя уровнями выше</a></li>
   </ol>
 
-  <p> 13. Пример контекстной ссылки в тексте абзаца: <a href="https://www.google.com">Это ссылка на внешний сайт</a>. </p>
+  <p> 13. Пример контекстной ссылки в тексте абзаца: <a href="https://vk.com/">Это ссылка на внешний сайт</a>. </p>
 
-  <p> 14. Ссылка на фрагмент страницы стороннего сайта: <a href="https://www.youtube.com#fragment">Ссылка на фрагмент</a></p>
+  <p> 14. Ссылка на фрагмент страницы стороннего сайта: <a href="https://www.vk.com#fragment">Ссылка на фрагмент</a></p>
 
   <p> 15. Пример прямоугольной и круглой области</p>
-  <img src="https://postila.ru/data/fd/eb/08/27/fdeb0827c1cfb06600a922635c5ba8adc054e9e7ac8b74cdc2be098846eefa4e.jpg" width = 400 usemap="#image" alt="Прямоугольное изображение">
-   
+  <h3>Прямоугольная область</h3>
+
+    <img src="https://cdn.shopify.com/s/files/1/0895/0864/products/42-17207197_1024x1024.jpeg?v=1450884955" width = 400 usemap="#image" alt="Прямоугольное изображение">
+
     <map name="image">
-        <area shape="rect" coords="0,0,400,400" href="https://ru.wikipedia.org/wiki/%D0%9B%D0%B5%D1%81%D0%BD%D0%BE%D0%B9_%D0%BA%D0%BE%D1%82" alt="Перейти на сайт">
+      <area shape="rect" coords="0,0,400,400" href="https://ru.wikipedia.org/wiki/Джек-рассел-терьер" alt="Перейти на сайт">
     </map>
-    
- <h3>Круглая область</h3>
-    
-    <img src="https://www.eduportal44.ru/soligalich/Solnce/5/SiteAssets/SitePages/%D0%A1%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%87%D0%BA%D0%B0%20%D0%BB%D0%BE%D0%B3%D0%BE%D0%BF%D0%B5%D0%B4%D0%B0/unnamed.jpg"  width = 100 usemap="#image1" alt="Круглое изображение">
+
+  <h3>Круглая область</h3>
+
+    <img src="https://i.pinimg.com/736x/26/97/95/269795d2a83febb17d679530a693bd27.jpg"  width = 100 usemap="#image1" alt="Круглое изображение">
 
     <map name="image1">
-        <area shape="circle" coords="100,100,100" href="https://ya.ru" alt="Перейти на сайт">
+        <area shape="circle" coords="100,100,100" href="https://plvideo.ru/" alt="Перейти на сайт">
     </map>
 
   <ol start = "16">
     <li>Ссылка с пустым href: <a href=""></a></li>
     <li>Ссылка без href: <a>Ссылка без href</a></li>
-    <li>Ссылка, по которой запрещен переход поисковикам: <a href="https://www.google.com" rel="nofollow">Запрещенная ссылка</a></li>
+    <li>Ссылка, по которой запрещен переход поисковикам: <a href="https://www.vk.com" rel="nofollow">Запрещенная ссылка</a></li>
     <li>Запрещенная для индексации поисковиками: <meta name="robots" content="noindex, nofollow"> </li>
   </ol>
   <p>20. Нумерованный список ссылок с подписями title</p>
   <ol>
-    <li>Ссылка с title: <a href="https://www.google.com" title="Описание ссылки">Ссылка с описанием</a></li>
-    <li>Ссылка с title: <a href="https://www.yandex.ru" title="Описание ссылки">Ссылка с описанием</a></li>
+    <li>Ссылка с title: <a href="https://www.rutube.com" title="Описание     ссылки">Ссылка с описанием</a></li>
+    <li>Ссылка с title: <a href="https://www.plvideo.ru" title="Описание ссылки">Ссылка с описанием</a></li>
   </ol>
     <p> 21. Ссылка на файл на сервере FTP с авторизацией: <a href="ftp://user:password@ftp.server.com/file.txt">Файл на FTP</a></p>
       <h2>Форма</h2>
@@ -82,7 +84,7 @@
     <label for="female">Женский</label><br><br>
 
     <label for="languages">Любимый язык программирования:</label><br>
-    <select id="languages" name="languages[]" multiple>
+    <select id="languages" name="languages" multiple>
       <option value="Pascal">Pascal</option>
       <option value="C">C</option>
       <option value="C++">C++</option>
@@ -92,7 +94,7 @@
       <option value="Java">Java</option>
       <option value="Haskel">Haskel</option>
       <option value="Clojure">Clojure</option>
-      <option value="Prolog">Prolog</option>    
+      <option value="Prolog">Prolog</option>
       <option value="Scala">Scala</option>
     </select><br><br>
 
@@ -104,8 +106,6 @@
 
     <input type="submit" value="Сохранить">
   </form>
-
-
 
 </body>
 </html>
